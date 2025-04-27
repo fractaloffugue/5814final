@@ -1,7 +1,7 @@
 # Data Sampling Method Based on Integrated Active Learning and Reinforcement Learning Agents
 
 ## Overview
-This repository contains the implementation of a reinforcement learning-based framework for online active learning, inspired by the CBeAL (Contextual Bandit-Based Ensemble Active Learning) methodology. Our approach addresses the challenge of balancing exploration and exploitation during sample selection in streaming scenarios, particularly within industrial cyber-physical systems.
+In this project, we develop and implement a reinforcement learning-based framework for online active learning, inspired by the CBeAL (Contextual Bandit-Based Ensemble Active Learning) methodology. This framework includes six active learning agents with different exploitation strategies. These agents are integrated via an EXP4.P ensemble controller enhanced with an EWMA-based flipping mechanism to ensure dynamic adaptability and prevent agent dominance. We apply this framework to the UCI Spambase dataset and train a two-layer MLP classifier to evaluate decision-making efficiency. Experimental results demonstrate that a compact agent ensemble can achieve high accuracy (93.49\%) and F1 score (91.74\%) while labeling significantly fewer samples than full supervision.
 
 ## Dataset
 We use the UCI Spambase dataset, which includes:
